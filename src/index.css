@@ -27,5 +27,11 @@
 
 /* background img */
 @theme{
-  --background-image-banner : url('./assets/banner.png')
+  --background-image-banner : url('./assets/banner.png');
+  --background-image-offer: url('./assets/offer.png')
+}
+
+/* font color */
+@theme{
+  --color-yelo: #E9BD8C
 }

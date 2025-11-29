@@ -19,7 +19,7 @@ const Banner = () => {
         </h1>
 
         {/* Buttons */}
-        <div className="flex md:flex-row flex-col gap-4 md:mx-0 mx-auto">
+        <div className="flex md:flex-row flex-col gap-4 md:mx-0 mx-auto font-poppins">
           <button
             aria-label="Shop Now"
             className="bg-[#933C24] text-white font-semibold md:px-10 px-[10px] py-[10px] md:py-4 rounded-md hover:bg-[#7c2f1a] duration-300 cursor-pointer w-full md:w-fit"

@@ -28,7 +28,8 @@
 /* background img */
 @theme{
   --background-image-banner : url('./assets/banner.png');
-  --background-image-offer: url('./assets/offer.png')
+  --background-image-offer: url('./assets/offer.png');
+  --background-image-footer: url('./assets/footer.png')
 }
 
 /* font color */

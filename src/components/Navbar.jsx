@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -17,7 +18,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt="Cafe Delights official logo"
-            className="w-[80px] sm:w-[100px]"
+            className="w-[50px] sm:w-[90px]"
           />
         </a>
 
@@ -34,7 +35,7 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden lg:flex gap-10 font-poppins text-[17px] font-semibold text-white">
-          <a href="/" className="hover:text-[#E9BD8C] duration-500">Home</a>
+          <Link to="/" className="hover:text-[#E9BD8C] duration-500">Home</Link>
           <a href="/blog" className="hover:text-[#E9BD8C] duration-500">Blog</a>
           <a href="/contact" className="hover:text-[#E9BD8C] duration-500">Contact Us</a>
           <a href="/services" className="hover:text-[#E9BD8C] duration-500">Services</a>

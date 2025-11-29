@@ -7,7 +7,7 @@ const TopProducts = () => {
     <div className='py-[70px]'>
       <div className="container mx-auto px-4">
 
-        <h2 className='font-sansita text-[40px] md:text-[64px] text-center mb-10'>
+        <h2 className='font-sansita text-[40px] md:text-[64px] text-center mb-10 font-bold'>
           Top Products
         </h2>
 
